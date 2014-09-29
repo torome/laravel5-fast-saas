@@ -14,7 +14,7 @@ class CreateSessionTable extends Migration {
 		Schema::create('sessions', function($t)
 		{
 			$t->string('id')->unique();
-            $t->string('user_id', 36;
+            $t->string('user_id', 36);
 			$t->text('payload');
 			$t->integer('last_activity');
 		});
