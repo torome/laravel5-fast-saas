@@ -13,7 +13,7 @@ class CreateUsersTable extends Migration {
     {
         Schema::create('users', function($table) {
 
-            $table->string('id', 255)->unique();
+            $table->string('id', 36)->unique();
             $table->string('first_name', 30);
             $table->string('last_name', 30);
             $table->string('username', 16);
@@ -24,9 +24,9 @@ class CreateUsersTable extends Migration {
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();
-            $table->string('created_by_user_id', 255);
-            $table->string('updated_by_user_id', 255);
-            $table->string('deleted_by_user_id', 255);
+            $table->string('created_by_user_id', 36);
+            $table->string('updated_by_user_id', 36);
+            $table->string('deleted_by_user_id', 36);
             $table->string('status', 8)->default("INACTIVE");
         });
     }
