@@ -1,0 +1,13 @@
+{
+    "name": "laravel5-fast-saas",
+    "version": "0.1.0",
+    "homepage": "https://github.com/kharysharpe/laravel5-fast-saas",
+    "authors": [
+        "Khary Sharpe <kharysharpe@users.noreply.github.com>"
+    ],
+    "description": "Laravel 5 Fast SaaS",
+    "license": "MIT",
+    "dependencies": {
+        "admin-lte": "~1.2.1"
+    }
+}

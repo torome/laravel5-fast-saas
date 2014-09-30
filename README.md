@@ -47,6 +47,7 @@ $ npm install -g bower-installer
 * `bower-installer`
 * `php artisan key:generate`
 * `php artisan app::name PROJECTNAME`
+* `php artisan migrate`
 * Start coding (:
 
 
